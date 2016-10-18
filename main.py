@@ -18,7 +18,7 @@ def send_simple_message():
               "to": ["bar@example.com"],
               "subject": "BOOM!",
               "text": "BOOM!"})
-        print("Email sent")
+    print("Email sent")
 import time
 var = "False"
 t = int(input("Time:"))
