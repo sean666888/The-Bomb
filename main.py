@@ -18,7 +18,6 @@ def send_simple_message():
               "to": ["bar@example.com"],
               "subject": "BOOM!",
               "text": "BOOM!"})
-    print("Email sent")
 import time
 var = "False"
 t = int(input("Time:"))
@@ -32,4 +31,5 @@ for i in range(t2):
   t -= 1
   time.sleep(1)
 send_simple_message()
+print("Email sent")
 print("BOOM!")
